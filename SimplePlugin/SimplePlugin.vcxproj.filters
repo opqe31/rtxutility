@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="plugin_sdk">
+      <UniqueIdentifier>{bd2578a1-3ff5-40ed-adbc-4679e687d14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{42c7d1c5-edae-498b-9da3-0f5e4ba5ec6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\database">
+      <UniqueIdentifier>{6235847e-e0fc-478f-8d5a-98e6451ba597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\common">
+      <UniqueIdentifier>{b568ae47-ba12-422a-8c5b-3b50f13d1ff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features">
+      <UniqueIdentifier>{498afa94-4300-4091-8e21-cb8a1a58acf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\champions">
+      <UniqueIdentifier>{ae32ea62-8326-4c96-a024-13d0d934ba27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\hud">
+      <UniqueIdentifier>{fe74cfd8-bd94-4c49-93e4-02214b3a978b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\hud\fake_cursor">
+      <UniqueIdentifier>{6d219f4c-f198-481f-911a-b77fd15b75bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\auto_leveler">
+      <UniqueIdentifier>{5cd338ff-38ba-4d31-94a8-bcadc526378e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers">
+      <UniqueIdentifier>{23e3a69d-8025-4dc8-864a-534d63e585b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\dash_tracker">
+      <UniqueIdentifier>{8c5605a5-e142-4065-8e10-0b8cbc9b5743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\wards">
+      <UniqueIdentifier>{08c37f83-a1b0-42a3-9d31-14c4b34174ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\fow_tracker">
+      <UniqueIdentifier>{d1c2f479-b2bd-4b0a-9ec6-f32862de3b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\cd_tracker">
+      <UniqueIdentifier>{1c1933cb-84c4-49e6-a2df-40b9e0a375f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\misc">
+      <UniqueIdentifier>{0c6ece47-191c-4ec7-9135-853008c1fe8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\summoner_spell">
+      <UniqueIdentifier>{9960caf2-3992-406f-9b8b-e7f0c7054751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\misc\orb">
+      <UniqueIdentifier>{7e967414-9e40-43df-b213-65d31a4031e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\cd_tracker\items">
+      <UniqueIdentifier>{45849eb4-d987-4fca-8eac-2e220ae7d2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\cd_tracker\spells">
+      <UniqueIdentifier>{d50c30cb-4223-4adf-8579-2f2efe6dc2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\features\trackers\cd_tracker\spells\champions">
+      <UniqueIdentifier>{94d9523a-109e-4c2c-81ce-c65d5d934242}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\plugin_sdk\plugin_sdk.cpp">
+      <Filter>plugin_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\plugin_sdk\clipper.cpp">
+      <Filter>plugin_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="champion.cpp">
+      <Filter>src\features\champions</Filter>
+    </ClCompile>
+    <ClCompile Include="summoner_spell.cpp">
+      <Filter>src\features\summoner_spell</Filter>
+    </ClCompile>
+    <ClCompile Include="orb.cpp">
+      <Filter>src\features\misc\orb</Filter>
+    </ClCompile>
+    <ClCompile Include="level_up.cpp">
+      <Filter>src\features\auto_leveler</Filter>
+    </ClCompile>
+    <ClCompile Include="ward_database.cpp">
+      <Filter>src\features\trackers\wards</Filter>
+    </ClCompile>
+    <ClCompile Include="wards.cpp">
+      <Filter>src\features\trackers\wards</Filter>
+    </ClCompile>
+    <ClCompile Include="fake_cursor.cpp">
+      <Filter>src\features\hud\fake_cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="fow_tracker.cpp">
+      <Filter>src\features\trackers\fow_tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="dash_tracker.cpp">
+      <Filter>src\features\trackers\dash_tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="spelldb.cpp">
+      <Filter>src\utils\database</Filter>
+    </ClCompile>
+    <ClCompile Include="dmg.cpp">
+      <Filter>src\utils\database</Filter>
+    </ClCompile>
+    <ClCompile Include="A_.cpp">
+      <Filter>src\utils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="A_trans.cpp">
+      <Filter>src\utils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="easing.cpp">
+      <Filter>src\utils\common</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>src\features\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>src\features</Filter>
+    </ClCompile>
+    <ClCompile Include="leveler_data.cpp">
+      <Filter>src\features\auto_leveler</Filter>
+    </ClCompile>
+    <ClCompile Include="exhaust_spelldb.cpp">
+      <Filter>src\features\summoner_spell</Filter>
+    </ClCompile>
+    <ClCompile Include="notify.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="side.cpp">
+      <Filter>src\features\hud</Filter>
+    </ClCompile>
+    <ClCompile Include="cooldown_spells.cpp">
+      <Filter>src\features\trackers\cd_tracker\spells</Filter>
+    </ClCompile>
+    <ClCompile Include="summoner_spells.cpp">
+      <Filter>src\features\trackers\cd_tracker\spells</Filter>
+    </ClCompile>
+    <ClCompile Include="aatrox.cpp">
+      <Filter>src\features\trackers\cd_tracker\spells\champions</Filter>
+    </ClCompile>
+    <ClCompile Include="ahri.cpp">
+      <Filter>src\features\trackers\cd_tracker\spells\champions</Filter>
+    </ClCompile>
+    <ClCompile Include="akali.cpp">
+      <Filter>src\features\trackers\cd_tracker\spells\champions</Filter>
+    </ClCompile>
+    <ClCompile Include="aa_tracker.cpp">
+      <Filter>src\features\trackers</Filter>
+    </ClCompile>
+    <ClCompile Include="map_data.cpp">
+      <Filter>src\utils\database</Filter>
+    </ClCompile>
+    <ClCompile Include="zone_position.cpp">
+      <Filter>src\features\trackers</Filter>
+    </ClCompile>
+    <ClCompile Include="hero_ranges.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main_hud.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="structures.cpp">
+      <Filter>src\features\trackers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\plugin_sdk\cpplinq.h">
+      <Filter>plugin_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\plugin_sdk.hpp">
+      <Filter>plugin_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\plugin_sdk\clipper.h">
+      <Filter>plugin_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="champion.h">
+      <Filter>src\features\champions</Filter>
+    </ClInclude>
+    <ClInclude Include="summoner_spell.h">
+      <Filter>src\features\summoner_spell</Filter>
+    </ClInclude>
+    <ClInclude Include="orb.h">
+      <Filter>src\features\misc\orb</Filter>
+    </ClInclude>
+    <ClInclude Include="level_up.h">
+      <Filter>src\features\auto_leveler</Filter>
+    </ClInclude>
+    <ClInclude Include="fake_cursor.h">
+      <Filter>src\features\hud\fake_cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="fow_tracker.h">
+      <Filter>src\features\trackers\fow_tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="dash_tracker.h">
+      <Filter>src\features\trackers\dash_tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="spelldb.h">
+      <Filter>src\utils\database</Filter>
+    </ClInclude>
+    <ClInclude Include="dmg.h">
+      <Filter>src\utils\database</Filter>
+    </ClInclude>
+    <ClInclude Include="A_.h">
+      <Filter>src\utils\common</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>src\features\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>src\features</Filter>
+    </ClInclude>
+    <ClInclude Include="exhaust_spelldb.h">
+      <Filter>src\features\summoner_spell</Filter>
+    </ClInclude>
+    <ClInclude Include="notify.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="side.hpp">
+      <Filter>src\features\hud</Filter>
+    </ClInclude>
+    <ClInclude Include="map_data.hpp">
+      <Filter>src\utils\database</Filter>
+    </ClInclude>
+    <ClInclude Include="main_hud.hpp">
+      <Filter>src\features\trackers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
